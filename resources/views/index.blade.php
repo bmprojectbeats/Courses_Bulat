@@ -85,7 +85,13 @@
                     
                 </section>
 
-
+                <div class="container">
+   <h1>Категории курсов</h1>
+   <ul>
+      <li><a href="/courses/1">Основы программирования</a></li>
+      <li><a href="/courses/2">Дизайн</a></li>
+    </ul>
+  </div>
 
 <section id="enroll">
     <div class="container">

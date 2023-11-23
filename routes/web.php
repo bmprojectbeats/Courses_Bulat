@@ -35,7 +35,7 @@ Route::post("/course/create",[CourseController::class, "create"]);
 Route::post("/category/create",[CategoryController::class, "create"]);
 Route::post("/register",[RegisterController::class, "register"]);
 
-
+Route::get("/courses/{id}",[CategoryController::class, "show_categoriess"]);
 
 Route::get('/lk', function(){
     return view('lk');

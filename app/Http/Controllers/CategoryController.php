@@ -27,5 +27,8 @@ class CategoryController extends Controller
         ]);
     }
 
-
+    public function show_categories($id){
+        $courses = Course::where("category_id", $id)->get();
+        return view("courses", ["courses"=>$courses]);
+    }
 }
